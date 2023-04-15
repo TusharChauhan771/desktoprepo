@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asos webpage</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Source+Sans+Pro:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=DM+Sans&family=Source+Sans+Pro:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=DM+Sans&family=Manrope:wght@200&family=Source+Sans+Pro:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=DM+Sans&family=Manrope:wght@200&family=Sarabun:wght@100&family=Source+Sans+Pro:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cabin:ital@1&family=DM+Sans&family=Manrope:wght@200&family=Sarabun:wght@100&family=Source+Sans+Pro:wght@600&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-image: url("https://talkinginfluence.com/wp-content/uploads/2020/11/The-Future-of-Commerce-is-Shoppable-Ads-980x460.jpg?crop=1");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        /* .opacity{
+    width: 100%;
+    height: 100%;
+    color: rgb(6, 6, 15);
+    opacity: 2;
+        } */
+
+        .nav {
+            display: flex;
+            background-color: rgb(53, 49, 49);
+            color: white;
+            font-family: sarabun;
+        }
+
+        .list {
+            list-style-type: none;
+            display: flex;
+            padding: 0 90px;
+            margin: -15px;
+        }
+
+        li {
+            padding: 0 25px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+
+        }
+
+        div ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .top {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+            align-items: center;
+            margin: auto;
+            /* margin-left: auto; */
+            margin-left: -60px;
+        }
+
+        .asos {
+            /* margin: auto; */
+            font-size: xx-large;
+            margin-left: 50px;
+            font-family: bangers;
+        }
+
+        #box {
+            border-radius: 25px;
+            border: 2px solid rgb(173, 173, 173);
+            /* padding: 20px;  */
+            /* width: 200px; */
+            /* height: 15px; */
+            font-size: 14px;
+        }
+
+        .offer {
+            display: flex;
+            background-color: black;
+            width: 100vw;
+            height: 7vh;
+            font-size: small;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            font-family: manrope;
+            /* padding: 0 0px; */
+        }
+
+        #women {
+            border: 1px solid white;
+            border-radius: 2px;
+        }
+
+        #men {
+            border: 1px solid white;
+            border-radius: 2px;
+        }
+
+        #text {
+            padding: 0 100px;
+        }
+
+        .main {
+            display: block;
+            color: white;
+            font-weight: bolder;
+            font-size: xx-large;
+        }
+
+        #sale {
+            display: flex;
+            justify-content: center;
+            /* margin-top: 20px; */
+            background-color: rgb(12, 150, 192);
+            margin: 0px 395px;
+            padding: 4px 7px;
+            margin-top: 20px;
+            margin-bottom: 5px;
+            font-family: Cabin, 'josefin sans', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        #clear {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(12, 150, 192);
+            margin: 0 410px;
+            padding: 4px 7px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-family: 'Cabin', sans-serif;
+        }
+
+        #up {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(12, 150, 192);
+            margin: 0 390px;
+            padding: 4px 7px;
+            margin-top: 5px;
+            margin-bottom: 9px;
+            font-family: 'Cabin', sans-serif;
+        }
+
+        #every {
+            display: inline;
+            margin: auto;
+            background-color: rgb(12, 150, 192);
+            margin: 0 420px;
+            padding: 4px 7px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            font-family: 'Cabin', sans-serif;
+        }
+
+        .images {
+            display: flex;
+            width: 100vw;
+            height: 200px;
+            padding: 25px 0;
+        }
+
+        #one {
+            width: 190px;
+            height: 230px;
+            padding-left: 189px;
+            padding-right: 40px;
+        }
+
+        #two {
+            width: 190px;
+            height: 230px;
+            padding-right: 40px;
+            box-shadow: -15px 15px 15px rgba(0,0,0,0.5);
+        }
+
+        #three {
+            width: 190px;
+            height: 230px;
+            box-shadow: -15px 15px 15px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="opacity"></div>
+        <!-- <div class="image">
+            <img src="https://talkinginfluence.com/wp-content/uploads/2020/11/The-Future-of-Commerce-is-Shoppable-Ads-980x460.jpg?crop=1">
+        </div> -->
+        <nav class="nav">
+            <div class="asos">
+                <h1 id="sos">SAMPLE</h1>
+            </div>
+            <div class="top">
+                <ul class="list">
+                    <li><a href="Men">Men</a></li>
+                    <li><a href="Women">Women</a></li>
+                    <li><input type="text" placeholder="   enter items,brands & inspirations...." size="40px" id="box">
+                    </li>
+                    <li><a href="My profile">My profile</a></li>
+                    <li><a href="Settings">Settings</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <div class="banner">
+                <ul class="offer">
+                    <li id="women">Women</li>
+                    <li id="text">Hey, you are now here!<br>Get 15% off everything when you spend $30 with code:
+                        ASOSNEWHERE</li>
+                    <li id="men">Men</li>
+                </ul>
+            </div>
+            <div class="main">
+                <p id="sale">SALE: FINAL</p>
+                <p id="clear">CLEARANCE</p>
+                <p id="up">UP TO 80% OFF</p>
+                <P id="every">EVERYTHING</P>
+            </div>
+            <div class="images">
+                <img id="one"
+                    src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/10673544/2019/9/24/6b9c7688-7ca2-4d11-9e5b-a3745ecd8f761569310358973-The-Indian-Garage-Co-Men-Shirts-8481569310357131-1.jpg"
+                    alt="no image found">
+                <img id="two"
+                    src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/17048614/2022/2/4/b0eb9426-adf2-4802-a6b3-5dbacbc5f2511643971561167KhushalKWomenBlackEthnicMotifsAngrakhaBeadsandStonesKurtawit7.jpg"
+                    alt="no image found">
+                <img id="three"
+                    src="https://www.levi.in/on/demandware.static/-/Sites-LeviIN-Library/en_IN/dw9bd22fbc/images/homepage/CategoryTiles/CategoryTilesHomePage/Men%27s%20Clothing.jpg"
+                    alt="no image found">
+            </div>
+        </main>
+    </header>
+</body>
+
+</html>
